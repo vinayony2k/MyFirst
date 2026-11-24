@@ -6,9 +6,9 @@ def display_board(board):
     cells = [str(value) if value != " " else str(index + 1)
              for index, value in enumerate(board)]
     print(f"\n {cells[0]} | {cells[1]} | {cells[2]} ")
-    print("---+---+---")
+    print("---|---|---")
     print(f" {cells[3]} | {cells[4]} | {cells[5]} ")
-    print("---+---+---")
+    print("---|---|---")
     print(f" {cells[6]} | {cells[7]} | {cells[8]} \n")
 
 
