@@ -26,7 +26,7 @@ def has_won(board, mark):
 def play():
     """Run a two-player Tic-Tac-Toe game in the terminal."""
     board = [" "] * 9
-    current_mark = "X"
+    current_mark = "Y"
 
     print("Welcome to Tic-Tac-Toe!")
     print("Choose a square by entering its number (1-9).")
@@ -56,7 +56,7 @@ def play():
             print("It's a draw!")
             break
 
-        current_mark = "O" if current_mark == "X" else "X"
+        current_mark = "S" if current_mark == "Y" else "Y"
 
 
 if __name__ == "__main__":
